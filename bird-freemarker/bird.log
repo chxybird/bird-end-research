@@ -1,0 +1,348 @@
+2021-04-13 09:16:39 - Starting FreeMarkerTest on LAPTOP-J9JIRTM4 with PID 12980 (started by 86152 in F:\workspace\DistributedMicroservices\bird-research\bird-freemarker)
+2021-04-13 09:16:39 - No active profile set, falling back to default profiles: default
+2021-04-13 09:16:41 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-13 09:16:41 - Started FreeMarkerTest in 2.422 seconds (JVM running for 3.986)
+2021-04-13 09:16:41 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-13 09:17:30 - Starting FreeMarkerTest on LAPTOP-J9JIRTM4 with PID 13836 (started by 86152 in F:\workspace\DistributedMicroservices\bird-research\bird-freemarker)
+2021-04-13 09:17:30 - No active profile set, falling back to default profiles: default
+2021-04-13 09:17:31 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-13 09:17:32 - Started FreeMarkerTest in 2.345 seconds (JVM running for 3.15)
+2021-04-13 09:17:32 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-13 09:18:35 - Starting FreeMarkerTest on LAPTOP-J9JIRTM4 with PID 2008 (started by 86152 in F:\workspace\DistributedMicroservices\bird-research\bird-freemarker)
+2021-04-13 09:18:35 - No active profile set, falling back to default profiles: default
+2021-04-13 09:18:36 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-13 09:18:36 - Started FreeMarkerTest in 2.125 seconds (JVM running for 2.926)
+2021-04-13 09:18:37 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-13 09:50:29 - Starting FreeMarkerTest on LAPTOP-J9JIRTM4 with PID 13924 (started by 86152 in F:\workspace\DistributedMicroservices\bird-research\bird-freemarker)
+2021-04-13 09:50:29 - No active profile set, falling back to default profiles: default
+2021-04-13 09:50:31 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-13 09:50:31 - Started FreeMarkerTest in 2.206 seconds (JVM running for 2.976)
+2021-04-13 09:50:31 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-13 09:52:08 - Starting FreeMarkerTest on LAPTOP-J9JIRTM4 with PID 13676 (started by 86152 in F:\workspace\DistributedMicroservices\bird-research\bird-freemarker)
+2021-04-13 09:52:08 - No active profile set, falling back to default profiles: default
+2021-04-13 09:52:09 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-13 09:52:09 - Started FreeMarkerTest in 2.179 seconds (JVM running for 2.962)
+2021-04-13 09:52:10 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-13 10:00:10 - Starting FreeMarkerTest on LAPTOP-J9JIRTM4 with PID 13000 (started by 86152 in F:\workspace\DistributedMicroservices\bird-research\bird-freemarker)
+2021-04-13 10:00:10 - No active profile set, falling back to default profiles: default
+2021-04-13 10:00:12 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-13 10:00:13 - Started FreeMarkerTest in 3.265 seconds (JVM running for 4.157)
+2021-04-13 10:00:13 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-13 10:00:21 - Starting FreeMarkerTest on LAPTOP-J9JIRTM4 with PID 13844 (started by 86152 in F:\workspace\DistributedMicroservices\bird-research\bird-freemarker)
+2021-04-13 10:00:21 - No active profile set, falling back to default profiles: default
+2021-04-13 10:00:23 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-13 10:00:23 - Started FreeMarkerTest in 2.11 seconds (JVM running for 2.88)
+2021-04-13 10:00:23 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-13 10:01:25 - Starting FreeMarkerTest on LAPTOP-J9JIRTM4 with PID 17156 (started by 86152 in F:\workspace\DistributedMicroservices\bird-research\bird-freemarker)
+2021-04-13 10:01:25 - No active profile set, falling back to default profiles: default
+2021-04-13 10:01:26 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-13 10:01:27 - Started FreeMarkerTest in 2.17 seconds (JVM running for 2.976)
+2021-04-13 10:01:27 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-13 10:06:51 - Starting FreeMarkerTest on LAPTOP-J9JIRTM4 with PID 14872 (started by 86152 in F:\workspace\DistributedMicroservices\bird-research\bird-freemarker)
+2021-04-13 10:06:51 - No active profile set, falling back to default profiles: default
+2021-04-13 10:06:52 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-13 10:06:53 - Started FreeMarkerTest in 2.124 seconds (JVM running for 2.913)
+2021-04-13 10:06:53 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-13 10:44:56 - Starting FreeMarkerTest on LAPTOP-J9JIRTM4 with PID 1268 (started by 86152 in F:\workspace\DistributedMicroservices\bird-research\bird-freemarker)
+2021-04-13 10:44:56 - No active profile set, falling back to default profiles: default
+2021-04-13 10:44:57 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-13 10:44:58 - Started FreeMarkerTest in 2.158 seconds (JVM running for 2.94)
+2021-04-13 10:44:58 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-13 10:59:36 - Starting FreeMarkerTest on LAPTOP-J9JIRTM4 with PID 8608 (started by 86152 in F:\workspace\DistributedMicroservices\bird-research\bird-freemarker)
+2021-04-13 10:59:36 - No active profile set, falling back to default profiles: default
+2021-04-13 10:59:38 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-13 10:59:38 - Started FreeMarkerTest in 2.355 seconds (JVM running for 3.237)
+2021-04-13 10:59:38 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-13 11:00:04 - Starting FreeMarkerTest on LAPTOP-J9JIRTM4 with PID 9664 (started by 86152 in F:\workspace\DistributedMicroservices\bird-research\bird-freemarker)
+2021-04-13 11:00:04 - No active profile set, falling back to default profiles: default
+2021-04-13 11:00:05 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-13 11:00:06 - Started FreeMarkerTest in 2.262 seconds (JVM running for 3.058)
+2021-04-13 11:00:06 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-13 11:01:53 - Starting FreeMarkerTest on LAPTOP-J9JIRTM4 with PID 18128 (started by 86152 in F:\workspace\DistributedMicroservices\bird-research\bird-freemarker)
+2021-04-13 11:01:53 - No active profile set, falling back to default profiles: default
+2021-04-13 11:01:54 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-13 11:01:54 - Started FreeMarkerTest in 2.09 seconds (JVM running for 2.875)
+2021-04-13 11:01:55 - Error executing FreeMarker template
+freemarker.core._TemplateModelException: Java method "fr.opensagres.xdocreport.document.images.AbstractImageRegistry.registerImage(Object, String, fr.opensagres.xdocreport.template.IContext)" threw an exception when invoked on fr.opensagres.xdocreport.document.docx.images.DocxImageRegistry object "fr.opensagres.xdocreport.document.docx.images.DocxImageRegistry@39f0c343"; see cause exception in the Java stack trace.
+
+----
+FTL stack trace ("~" means nesting-related):
+	- Failed at: #assign ___imageInfo = ___ImageRegist...  [in template "fr.opensagres.xdocreport.document.docx.DocxReport@7302ff13!word/document.xml" at line 4, column 13703]
+----
+	at freemarker.ext.beans._MethodUtil.newInvocationTemplateModelException(_MethodUtil.java:289)
+	at freemarker.ext.beans._MethodUtil.newInvocationTemplateModelException(_MethodUtil.java:252)
+	at freemarker.ext.beans.SimpleMethodModel.exec(SimpleMethodModel.java:77)
+	at freemarker.core.MethodCall._eval(MethodCall.java:62)
+	at freemarker.core.Expression.eval(Expression.java:101)
+	at freemarker.core.Assignment.accept(Assignment.java:134)
+	at freemarker.core.Environment.visit(Environment.java:331)
+	at freemarker.core.Environment.visit(Environment.java:337)
+	at freemarker.core.Environment.visit(Environment.java:337)
+	at freemarker.core.Environment.process(Environment.java:310)
+	at fr.opensagres.xdocreport.template.freemarker.FreemarkerTemplateEngine.process(FreemarkerTemplateEngine.java:163)
+	at fr.opensagres.xdocreport.template.freemarker.FreemarkerTemplateEngine.processWithCache(FreemarkerTemplateEngine.java:112)
+	at fr.opensagres.xdocreport.template.AbstractTemplateEngine.process(AbstractTemplateEngine.java:112)
+	at fr.opensagres.xdocreport.template.AbstractTemplateEngine.process(AbstractTemplateEngine.java:83)
+	at fr.opensagres.xdocreport.document.AbstractXDocReport.processTemplateEngine(AbstractXDocReport.java:775)
+	at fr.opensagres.xdocreport.document.AbstractXDocReport.process(AbstractXDocReport.java:521)
+	at fr.opensagres.xdocreport.document.AbstractXDocReport.process(AbstractXDocReport.java:487)
+	at com.bird.FreeMarkerTest.test3(FreeMarkerTest.java:134)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestExecutionCallbacks.evaluate(RunBeforeTestExecutionCallbacks.java:74)
+	at org.springframework.test.context.junit4.statements.RunAfterTestExecutionCallbacks.evaluate(RunAfterTestExecutionCallbacks.java:84)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:86)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:251)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:230)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:58)
+Caused by: java.lang.NullPointerException: null
+	at fr.opensagres.xdocreport.document.images.ClassPathImageProvider.getInputStream(ClassPathImageProvider.java:83)
+	at fr.opensagres.xdocreport.document.images.AbstractInputStreamImageProvider.doIsValid(AbstractInputStreamImageProvider.java:69)
+	at fr.opensagres.xdocreport.document.images.AbstractImageProvider.isValid(AbstractImageProvider.java:252)
+	at fr.opensagres.xdocreport.document.images.AbstractImageRegistry.registerImage(AbstractImageRegistry.java:85)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at freemarker.ext.beans.BeansWrapper.invokeMethod(BeansWrapper.java:1505)
+	at freemarker.ext.beans.SimpleMethodModel.exec(SimpleMethodModel.java:72)
+	... 45 common frames omitted
+2021-04-13 11:01:55 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-13 11:17:30 - Starting FreeMarkerTest on LAPTOP-J9JIRTM4 with PID 12864 (started by 86152 in F:\workspace\DistributedMicroservices\bird-research\bird-freemarker)
+2021-04-13 11:17:30 - No active profile set, falling back to default profiles: default
+2021-04-13 11:17:31 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-13 11:17:32 - Started FreeMarkerTest in 2.162 seconds (JVM running for 3.081)
+2021-04-13 11:17:32 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-13 14:32:43 - Starting FreeMarkerTest on LAPTOP-J9JIRTM4 with PID 16808 (started by 86152 in F:\workspace\DistributedMicroservices\bird-research\bird-freemarker)
+2021-04-13 14:32:43 - No active profile set, falling back to default profiles: default
+2021-04-13 14:32:44 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-13 14:32:44 - Started FreeMarkerTest in 2.094 seconds (JVM running for 2.879)
+2021-04-13 14:32:44 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-13 14:33:59 - Starting FreeMarkerTest on LAPTOP-J9JIRTM4 with PID 3292 (started by 86152 in F:\workspace\DistributedMicroservices\bird-research\bird-freemarker)
+2021-04-13 14:33:59 - No active profile set, falling back to default profiles: default
+2021-04-13 14:34:00 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-13 14:34:01 - Started FreeMarkerTest in 2.23 seconds (JVM running for 3.023)
+2021-04-13 14:34:01 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-13 14:34:37 - Starting FreeMarkerTest on LAPTOP-J9JIRTM4 with PID 12524 (started by 86152 in F:\workspace\DistributedMicroservices\bird-research\bird-freemarker)
+2021-04-13 14:34:37 - No active profile set, falling back to default profiles: default
+2021-04-13 14:34:38 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-13 14:34:39 - Started FreeMarkerTest in 2.094 seconds (JVM running for 3.917)
+2021-04-13 14:35:10 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-13 14:35:24 - Starting FreeMarkerTest on LAPTOP-J9JIRTM4 with PID 17672 (started by 86152 in F:\workspace\DistributedMicroservices\bird-research\bird-freemarker)
+2021-04-13 14:35:24 - No active profile set, falling back to default profiles: default
+2021-04-13 14:35:25 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-13 14:35:26 - Started FreeMarkerTest in 2.538 seconds (JVM running for 3.589)
+2021-04-13 14:36:37 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-13 14:37:06 - Starting FreeMarkerTest on LAPTOP-J9JIRTM4 with PID 1296 (started by 86152 in F:\workspace\DistributedMicroservices\bird-research\bird-freemarker)
+2021-04-13 14:37:06 - No active profile set, falling back to default profiles: default
+2021-04-13 14:37:07 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-13 14:37:08 - Started FreeMarkerTest in 2.211 seconds (JVM running for 3.026)
+2021-04-13 14:37:08 - Error executing FreeMarker template
+freemarker.core.InvalidReferenceException: The following has evaluated to null or missing:
+==> user  [in template "fr.opensagres.xdocreport.document.docx.DocxReport@7b351446!word/document.xml" at line 4, column 2913]
+
+----
+Tip: If the failing expression is known to legally refer to something that's sometimes null or missing, either specify a default value like myOptionalVar!myDefault, or use [#if myOptionalVar??]when-present[#else]when-missing[/#if]. (These only cover the last step of the expression; to cover the whole expression, use parenthesis: (myOptionalVar.foo)!myDefault, (myOptionalVar.foo)??
+----
+
+----
+FTL stack trace ("~" means nesting-related):
+	- Failed at: ${user.id} auto-escaped  [in template "fr.opensagres.xdocreport.document.docx.DocxReport@7b351446!word/document.xml" at line 4, column 2911]
+----
+	at freemarker.core.InvalidReferenceException.getInstance(InvalidReferenceException.java:134)
+	at freemarker.core.UnexpectedTypeException.newDescriptionBuilder(UnexpectedTypeException.java:85)
+	at freemarker.core.UnexpectedTypeException.<init>(UnexpectedTypeException.java:48)
+	at freemarker.core.NonHashException.<init>(NonHashException.java:49)
+	at freemarker.core.Dot._eval(Dot.java:48)
+	at freemarker.core.Expression.eval(Expression.java:101)
+	at freemarker.core.BuiltInForLegacyEscaping._eval(BuiltInForLegacyEscaping.java:33)
+	at freemarker.core.Expression.eval(Expression.java:101)
+	at freemarker.core.Expression.evalAndCoerceToStringOrUnsupportedMarkup(Expression.java:141)
+	at freemarker.core.BuiltInForString.getTargetString(BuiltInForString.java:34)
+	at freemarker.core.BuiltInForString._eval(BuiltInForString.java:29)
+	at freemarker.core.Expression.eval(Expression.java:101)
+	at freemarker.core.MethodCall._eval(MethodCall.java:55)
+	at freemarker.core.Expression.eval(Expression.java:101)
+	at freemarker.core.Expression.evalAndCoerceToStringOrUnsupportedMarkup(Expression.java:141)
+	at freemarker.core.BuiltInForString.getTargetString(BuiltInForString.java:34)
+	at freemarker.core.BuiltInForString._eval(BuiltInForString.java:29)
+	at freemarker.core.Expression.eval(Expression.java:101)
+	at freemarker.core.MethodCall._eval(MethodCall.java:55)
+	at freemarker.core.Expression.eval(Expression.java:101)
+	at freemarker.core.Expression.evalAndCoerceToStringOrUnsupportedMarkup(Expression.java:141)
+	at freemarker.core.BuiltInForString.getTargetString(BuiltInForString.java:34)
+	at freemarker.core.BuiltInForString._eval(BuiltInForString.java:29)
+	at freemarker.core.Expression.eval(Expression.java:101)
+	at freemarker.core.MethodCall._eval(MethodCall.java:55)
+	at freemarker.core.Expression.eval(Expression.java:101)
+	at freemarker.core.DollarVariable.calculateInterpolatedStringOrMarkup(DollarVariable.java:100)
+	at freemarker.core.DollarVariable.accept(DollarVariable.java:63)
+	at freemarker.core.Environment.visit(Environment.java:331)
+	at freemarker.core.Environment.visit(Environment.java:337)
+	at freemarker.core.Environment.visit(Environment.java:337)
+	at freemarker.core.Environment.process(Environment.java:310)
+	at fr.opensagres.xdocreport.template.freemarker.FreemarkerTemplateEngine.process(FreemarkerTemplateEngine.java:163)
+	at fr.opensagres.xdocreport.template.freemarker.FreemarkerTemplateEngine.processWithCache(FreemarkerTemplateEngine.java:112)
+	at fr.opensagres.xdocreport.template.AbstractTemplateEngine.process(AbstractTemplateEngine.java:112)
+	at fr.opensagres.xdocreport.template.AbstractTemplateEngine.process(AbstractTemplateEngine.java:83)
+	at fr.opensagres.xdocreport.document.AbstractXDocReport.processTemplateEngine(AbstractXDocReport.java:775)
+	at fr.opensagres.xdocreport.document.AbstractXDocReport.process(AbstractXDocReport.java:521)
+	at fr.opensagres.xdocreport.document.AbstractXDocReport.process(AbstractXDocReport.java:487)
+	at com.bird.utils.DocReportUtils.outputFile(DocReportUtils.java:61)
+	at com.bird.FreeMarkerTest.test4(FreeMarkerTest.java:153)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestExecutionCallbacks.evaluate(RunBeforeTestExecutionCallbacks.java:74)
+	at org.springframework.test.context.junit4.statements.RunAfterTestExecutionCallbacks.evaluate(RunAfterTestExecutionCallbacks.java:84)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:86)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:251)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:230)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:58)
+2021-04-13 14:37:08 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-13 14:49:35 - Starting FreeMarkerTest on LAPTOP-J9JIRTM4 with PID 9144 (started by 86152 in F:\workspace\DistributedMicroservices\bird-research\bird-freemarker)
+2021-04-13 14:49:35 - No active profile set, falling back to default profiles: default
+2021-04-13 14:49:36 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-13 14:49:36 - Started FreeMarkerTest in 2.172 seconds (JVM running for 2.996)
+2021-04-13 14:49:37 - Error executing FreeMarker template
+freemarker.core.InvalidReferenceException: The following has evaluated to null or missing:
+==> user  [in template "fr.opensagres.xdocreport.document.docx.DocxReport@4b765e92!word/document.xml" at line 4, column 2913]
+
+----
+Tip: If the failing expression is known to legally refer to something that's sometimes null or missing, either specify a default value like myOptionalVar!myDefault, or use [#if myOptionalVar??]when-present[#else]when-missing[/#if]. (These only cover the last step of the expression; to cover the whole expression, use parenthesis: (myOptionalVar.foo)!myDefault, (myOptionalVar.foo)??
+----
+
+----
+FTL stack trace ("~" means nesting-related):
+	- Failed at: ${user.id} auto-escaped  [in template "fr.opensagres.xdocreport.document.docx.DocxReport@4b765e92!word/document.xml" at line 4, column 2911]
+----
+	at freemarker.core.InvalidReferenceException.getInstance(InvalidReferenceException.java:134)
+	at freemarker.core.UnexpectedTypeException.newDescriptionBuilder(UnexpectedTypeException.java:85)
+	at freemarker.core.UnexpectedTypeException.<init>(UnexpectedTypeException.java:48)
+	at freemarker.core.NonHashException.<init>(NonHashException.java:49)
+	at freemarker.core.Dot._eval(Dot.java:48)
+	at freemarker.core.Expression.eval(Expression.java:101)
+	at freemarker.core.BuiltInForLegacyEscaping._eval(BuiltInForLegacyEscaping.java:33)
+	at freemarker.core.Expression.eval(Expression.java:101)
+	at freemarker.core.Expression.evalAndCoerceToStringOrUnsupportedMarkup(Expression.java:141)
+	at freemarker.core.BuiltInForString.getTargetString(BuiltInForString.java:34)
+	at freemarker.core.BuiltInForString._eval(BuiltInForString.java:29)
+	at freemarker.core.Expression.eval(Expression.java:101)
+	at freemarker.core.MethodCall._eval(MethodCall.java:55)
+	at freemarker.core.Expression.eval(Expression.java:101)
+	at freemarker.core.Expression.evalAndCoerceToStringOrUnsupportedMarkup(Expression.java:141)
+	at freemarker.core.BuiltInForString.getTargetString(BuiltInForString.java:34)
+	at freemarker.core.BuiltInForString._eval(BuiltInForString.java:29)
+	at freemarker.core.Expression.eval(Expression.java:101)
+	at freemarker.core.MethodCall._eval(MethodCall.java:55)
+	at freemarker.core.Expression.eval(Expression.java:101)
+	at freemarker.core.Expression.evalAndCoerceToStringOrUnsupportedMarkup(Expression.java:141)
+	at freemarker.core.BuiltInForString.getTargetString(BuiltInForString.java:34)
+	at freemarker.core.BuiltInForString._eval(BuiltInForString.java:29)
+	at freemarker.core.Expression.eval(Expression.java:101)
+	at freemarker.core.MethodCall._eval(MethodCall.java:55)
+	at freemarker.core.Expression.eval(Expression.java:101)
+	at freemarker.core.DollarVariable.calculateInterpolatedStringOrMarkup(DollarVariable.java:100)
+	at freemarker.core.DollarVariable.accept(DollarVariable.java:63)
+	at freemarker.core.Environment.visit(Environment.java:331)
+	at freemarker.core.Environment.visit(Environment.java:337)
+	at freemarker.core.Environment.visit(Environment.java:337)
+	at freemarker.core.Environment.process(Environment.java:310)
+	at fr.opensagres.xdocreport.template.freemarker.FreemarkerTemplateEngine.process(FreemarkerTemplateEngine.java:163)
+	at fr.opensagres.xdocreport.template.freemarker.FreemarkerTemplateEngine.processWithCache(FreemarkerTemplateEngine.java:112)
+	at fr.opensagres.xdocreport.template.AbstractTemplateEngine.process(AbstractTemplateEngine.java:112)
+	at fr.opensagres.xdocreport.template.AbstractTemplateEngine.process(AbstractTemplateEngine.java:83)
+	at fr.opensagres.xdocreport.document.AbstractXDocReport.processTemplateEngine(AbstractXDocReport.java:775)
+	at fr.opensagres.xdocreport.document.AbstractXDocReport.process(AbstractXDocReport.java:521)
+	at fr.opensagres.xdocreport.document.AbstractXDocReport.process(AbstractXDocReport.java:487)
+	at com.bird.utils.DocReportUtils.outputFile(DocReportUtils.java:61)
+	at com.bird.FreeMarkerTest.test4(FreeMarkerTest.java:153)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestExecutionCallbacks.evaluate(RunBeforeTestExecutionCallbacks.java:74)
+	at org.springframework.test.context.junit4.statements.RunAfterTestExecutionCallbacks.evaluate(RunAfterTestExecutionCallbacks.java:84)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:86)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:251)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:230)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:58)
+2021-04-13 14:49:37 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-13 14:52:36 - Starting FreeMarkerTest on LAPTOP-J9JIRTM4 with PID 14424 (started by 86152 in F:\workspace\DistributedMicroservices\bird-research\bird-freemarker)
+2021-04-13 14:52:36 - No active profile set, falling back to default profiles: default
+2021-04-13 14:52:37 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-13 14:52:37 - Started FreeMarkerTest in 2.09 seconds (JVM running for 2.879)
+2021-04-13 14:52:38 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-13 14:53:40 - Starting FreeMarkerTest on LAPTOP-J9JIRTM4 with PID 18120 (started by 86152 in F:\workspace\DistributedMicroservices\bird-research\bird-freemarker)
+2021-04-13 14:53:40 - No active profile set, falling back to default profiles: default
+2021-04-13 14:53:41 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-13 14:53:41 - Started FreeMarkerTest in 2.224 seconds (JVM running for 3.046)
+2021-04-13 14:53:42 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-13 15:02:09 - Starting FreeMarkerTest on LAPTOP-J9JIRTM4 with PID 14292 (started by 86152 in F:\workspace\DistributedMicroservices\bird-research\bird-freemarker)
+2021-04-13 15:02:09 - No active profile set, falling back to default profiles: default
+2021-04-13 15:02:11 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-13 15:02:11 - Started FreeMarkerTest in 2.28 seconds (JVM running for 3.08)
+2021-04-13 15:02:12 - Shutting down ExecutorService 'applicationTaskExecutor'

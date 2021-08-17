@@ -1,0 +1,30 @@
+{
+  "groups": [
+    {
+      "name": "bird",
+      "type": "com.bird.config.BirdConfig",
+      "sourceType": "com.bird.config.BirdConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "bird.ip",
+      "type": "java.lang.String",
+      "description": "网络地址",
+      "sourceType": "com.bird.config.BirdConfig"
+    },
+    {
+      "name": "bird.name",
+      "type": "java.lang.String",
+      "description": "名称",
+      "sourceType": "com.bird.config.BirdConfig"
+    },
+    {
+      "name": "bird.port",
+      "type": "java.lang.Integer",
+      "description": "端口号",
+      "sourceType": "com.bird.config.BirdConfig"
+    }
+  ],
+  "hints": []
+}

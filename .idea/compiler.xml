@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="bird-jdk" />
+        <module name="bird-task" />
+        <module name="bird-zk-service-A" />
+        <module name="bird-utils" />
+        <module name="bird-qr" />
+        <module name="bird-elastic" />
+        <module name="bird-cryptology" />
+        <module name="bird-zk-service-B" />
+        <module name="bird-authority" />
+        <module name="bird-mongodb" />
+        <module name="bird-json" />
+        <module name="bird-freemarker" />
+        <module name="bird-cicd" />
+        <module name="bird-log" />
+        <module name="bird-mybatis-plus" />
+        <module name="bird-provider" />
+        <module name="bird-CICD" />
+        <module name="bird-consumer" />
+        <module name="bird-springboot" />
+        <module name="bird-hadoop" />
+        <module name="bird-leet-code" />
+        <module name="bird-zk-service-X" />
+        <module name="bird-layui" />
+        <module name="bird-excel" />
+        <module name="service-common" />
+        <module name="bird-webflux" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="bird-authority" target="1.8" />
+      <module name="bird-CICD" target="1.8" />
+      <module name="bird-cicd" target="1.8" />
+      <module name="bird-cloud" target="1.8" />
+      <module name="bird-consumer" target="1.8" />
+      <module name="bird-cryptology" target="1.8" />
+      <module name="bird-elastic" target="1.8" />
+      <module name="bird-excel" target="1.8" />
+      <module name="bird-freemarker" target="1.8" />
+      <module name="bird-hadoop" target="1.8" />
+      <module name="bird-jdk" target="9" />
+      <module name="bird-json" target="1.8" />
+      <module name="bird-layui" target="1.8" />
+      <module name="bird-leet-code" target="1.8" />
+      <module name="bird-log" target="1.8" />
+      <module name="bird-mongodb" target="1.8" />
+      <module name="bird-mybatis-plus" target="1.8" />
+      <module name="bird-provider" target="1.8" />
+      <module name="bird-qr" target="1.8" />
+      <module name="bird-rabbitmq" target="1.8" />
+      <module name="bird-research" target="1.8" />
+      <module name="bird-service" target="1.8" />
+      <module name="bird-service-common" target="1.8" />
+      <module name="bird-springboot" target="1.8" />
+      <module name="bird-task" target="1.8" />
+      <module name="bird-utils" target="1.8" />
+      <module name="bird-webflux" target="1.8" />
+      <module name="bird-zk-service-A" target="1.8" />
+      <module name="bird-zk-service-B" target="1.8" />
+      <module name="bird-zk-service-X" target="1.8" />
+      <module name="service-common" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="bird-CICD" options="-parameters" />
+      <module name="bird-authority" options="-parameters" />
+      <module name="bird-cicd" options="-parameters" />
+      <module name="bird-cloud" options="-parameters" />
+      <module name="bird-consumer" options="-parameters" />
+      <module name="bird-cryptology" options="-parameters" />
+      <module name="bird-elastic" options="-parameters" />
+      <module name="bird-excel" options="-parameters" />
+      <module name="bird-freemarker" options="-parameters" />
+      <module name="bird-hadoop" options="-parameters" />
+      <module name="bird-jdk" options="-parameters" />
+      <module name="bird-json" options="-parameters" />
+      <module name="bird-layui" options="-parameters" />
+      <module name="bird-leet-code" options="-parameters" />
+      <module name="bird-log" options="-parameters" />
+      <module name="bird-mongodb" options="-parameters" />
+      <module name="bird-mybatis-plus" options="-parameters" />
+      <module name="bird-provider" options="-parameters" />
+      <module name="bird-qr" options="-parameters" />
+      <module name="bird-rabbitmq" options="-parameters" />
+      <module name="bird-service" options="-parameters" />
+      <module name="bird-service-common" options="-parameters" />
+      <module name="bird-springboot" options="-parameters" />
+      <module name="bird-task" options="-parameters" />
+      <module name="bird-utils" options="-parameters" />
+      <module name="bird-webflux" options="-parameters" />
+      <module name="bird-zk-service-A" options="-parameters" />
+      <module name="bird-zk-service-B" options="-parameters" />
+      <module name="bird-zk-service-X" options="-parameters" />
+      <module name="service-common" options="-parameters" />
+    </option>
+  </component>
+</project>
