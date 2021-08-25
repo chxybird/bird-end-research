@@ -2,6 +2,7 @@ package com.bird.builder;
 
 import com.bird.common.*;
 import org.elasticsearch.index.query.QueryBuilder;
+import org.elasticsearch.search.aggregations.AggregationBuilder;
 
 /**
  * @Author lipu
@@ -56,6 +57,13 @@ public interface ElasticBuilder {
      * @return Es构造者对象
      */
     ElasticRequestBuilder buildWithDocument(ElasticDocument<?> document);
+
+    /**
+     * 设置聚合
+     * @param aggregation 聚合构造者
+     * @return Es构造者对象
+     */
+    ElasticRequestBuilder buildWithAggregation(AggregationBuilder aggregation);
 
 
 

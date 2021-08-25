@@ -1,0 +1,28 @@
+{
+  "properties": {
+    "logDate": {
+      "format": "yyyy-MM-dd HH:mm:ss",
+      "type": "date"
+    },
+    "content": {
+      "store": true,
+      "type": "text"
+    },
+    "username": {
+      "store": true,
+      "type": "keyword"
+    },
+    "operationType": {
+      "store": true,
+      "type": "keyword"
+    },
+    "level": {
+      "store": true,
+      "type": "keyword"
+    },
+    "module": {
+      "store": true,
+      "type": "keyword"
+    }
+  }
+}

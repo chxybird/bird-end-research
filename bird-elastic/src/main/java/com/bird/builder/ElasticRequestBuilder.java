@@ -2,6 +2,7 @@ package com.bird.builder;
 
 import com.bird.common.*;
 import org.elasticsearch.index.query.QueryBuilder;
+import org.elasticsearch.search.aggregations.AggregationBuilder;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -69,4 +70,12 @@ public class ElasticRequestBuilder implements ElasticBuilder {
         request.setDocument(document);
         return this;
     }
+
+    @Override
+    public ElasticRequestBuilder buildWithAggregation(AggregationBuilder aggregation) {
+        request.setAggregation(aggregation);
+        return this;
+    }
+
+
 }

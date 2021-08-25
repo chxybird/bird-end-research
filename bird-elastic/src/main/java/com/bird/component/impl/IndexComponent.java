@@ -1,21 +1,31 @@
 package com.bird.component.impl;
 
+import com.bird.builder.ElasticBuilder;
+import com.bird.builder.ElasticRequestBuilder;
 import com.bird.common.ElasticIndex;
 import com.bird.common.ElasticRequest;
 import com.bird.component.intf.IIndexComponent;
 import com.bird.exception.ElasticException;
 import com.bird.factory.ElasticClientFactory;
+import com.bird.utils.JsonUtils;
 import lombok.extern.slf4j.Slf4j;
 import org.elasticsearch.action.admin.indices.alias.Alias;
+import org.elasticsearch.action.bulk.BulkRequest;
+import org.elasticsearch.action.index.IndexRequest;
 import org.elasticsearch.client.RequestOptions;
 import org.elasticsearch.client.RestHighLevelClient;
 import org.elasticsearch.client.indices.CreateIndexRequest;
 import org.elasticsearch.client.indices.GetIndexRequest;
+import org.elasticsearch.client.indices.GetIndexResponse;
 import org.elasticsearch.common.settings.Settings;
+import org.elasticsearch.common.xcontent.XContentType;
 import org.springframework.stereotype.Component;
 
 import javax.annotation.Resource;
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 /**
  * @Author lipu
@@ -107,4 +117,30 @@ public class IndexComponent implements IIndexComponent {
             throw new ElasticException("无法判断索引库状态");
         }
     }
+    
+    /**
+     * @Author lipu
+     * @Date 2021/8/20 12:07
+     * @Description 获取所有索引库信息
+     */
+    public List<String> getIndexList(ElasticRequest request){
+        try {
+            GetIndexRequest getIndexRequest;
+            RestHighLevelClient client = getClient();
+            if (request.getIndex()!=null&&request.getIndex().getAlias()!=null){
+                getIndexRequest=new GetIndexRequest(request.getIndex().getAlias());
+            }else {
+                getIndexRequest = new GetIndexRequest("*");
+            }
+            GetIndexResponse indexResponse = client.indices().get(getIndexRequest, RequestOptions.DEFAULT);
+            revertClient(client);
+            String[] indexNames = indexResponse.getIndices();
+            return new ArrayList<String>(Arrays.asList(indexNames));
+        } catch (Exception e) {
+            log.error("获取索引信息失败");
+            throw new ElasticException("获取索引信息失败");
+        }
+    }
+
+
 }

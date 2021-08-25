@@ -24,4 +24,14 @@ public class ElasticConfig {
      * 初始化连接池大小
      */
     private Integer poolSize = 20;
+
+    /**
+     * 默认索引库名称
+     */
+    private String defaultIndexName = "bird-log";
+
+    /**
+     * 默认索引mappings文件名称
+     */
+    private String defaultMappingsName = "mappings";
 }

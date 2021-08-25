@@ -73,8 +73,21 @@ public final class ElasticClientFactory {
         try {
             return pool.take();
         } catch (InterruptedException e) {
-            log.error("从线程池获取ES高级客户端失败");
+            log.error("从连接池获取ES高级客户端失败");
             return null;
+        }
+    }
+
+    /**
+     * @Author lipu
+     * @Date 2021/8/17 19:45
+     * @Description 归还高级客户端
+     */
+    public void revertClient(RestHighLevelClient client){
+        try {
+            pool.put(client);
+        } catch (Exception e) {
+            log.error("归还连接池失败");
         }
     }
 

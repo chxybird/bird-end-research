@@ -7,10 +7,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="bird-jdk" />
+        <module name="bird-excel" />
         <module name="bird-task" />
         <module name="bird-zk-service-A" />
-        <module name="bird-utils" />
+        <module name="untitled" />
+        <module name="bird-provider" />
         <module name="bird-qr" />
         <module name="bird-elastic" />
         <module name="bird-cryptology" />
@@ -19,19 +20,19 @@
         <module name="bird-mongodb" />
         <module name="bird-json" />
         <module name="bird-freemarker" />
-        <module name="bird-cicd" />
+        <module name="bird-CICD" />
         <module name="bird-log" />
         <module name="bird-mybatis-plus" />
-        <module name="bird-provider" />
-        <module name="bird-CICD" />
-        <module name="bird-consumer" />
+        <module name="bird-jdk" />
+        <module name="bird-cicd" />
         <module name="bird-springboot" />
         <module name="bird-hadoop" />
         <module name="bird-leet-code" />
         <module name="bird-zk-service-X" />
-        <module name="bird-layui" />
-        <module name="bird-excel" />
         <module name="service-common" />
+        <module name="bird-layui" />
+        <module name="bird-utils" />
+        <module name="bird-consumer" />
         <module name="bird-webflux" />
       </profile>
     </annotationProcessing>
@@ -67,6 +68,7 @@
       <module name="bird-zk-service-B" target="1.8" />
       <module name="bird-zk-service-X" target="1.8" />
       <module name="service-common" target="1.8" />
+      <module name="untitled" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -101,6 +103,7 @@
       <module name="bird-zk-service-B" options="-parameters" />
       <module name="bird-zk-service-X" options="-parameters" />
       <module name="service-common" options="-parameters" />
+      <module name="untitled" options="-parameters" />
     </option>
   </component>
 </project>

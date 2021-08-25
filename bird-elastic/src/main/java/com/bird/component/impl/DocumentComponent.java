@@ -16,6 +16,8 @@ import org.elasticsearch.client.RestHighLevelClient;
 import org.elasticsearch.common.text.Text;
 import org.elasticsearch.common.xcontent.XContentType;
 import org.elasticsearch.search.SearchHit;
+import org.elasticsearch.search.aggregations.AggregationBuilders;
+import org.elasticsearch.search.aggregations.metrics.MaxAggregationBuilder;
 import org.elasticsearch.search.builder.SearchSourceBuilder;
 import org.elasticsearch.search.fetch.subphase.highlight.HighlightBuilder;
 import org.elasticsearch.search.fetch.subphase.highlight.HighlightField;
@@ -97,6 +99,34 @@ public class DocumentComponent implements IDocumentComponent {
 
     /**
      * @Author lipu
+     * @Date 2021/8/25 15:30
+     * @Description 聚合查询
+     */
+    public SearchResponse aggregation(ElasticRequest request){
+        if (request == null) {
+            log.info("request不能为空");
+            return null;
+        }
+        try {
+            RestHighLevelClient client=getClient();
+            //索引处理
+            SearchRequest searchRequest = dealIndex(request);
+            SearchSourceBuilder builder = new SearchSourceBuilder();
+            //条件处理
+            dealQuery(builder, request);
+            //聚合处理
+            dealAggregation(builder,request);
+            //执行检索
+            searchRequest.source(builder);
+            return client.search(searchRequest, RequestOptions.DEFAULT);
+        } catch (Exception e) {
+            log.error("ES文档检索异常");
+            throw new ElasticException("ES文档检索异常");
+        }
+    }
+
+    /**
+     * @Author lipu
      * @Date 2021/8/13 14:05
      * @Description ES文档入库
      */
@@ -144,13 +174,13 @@ public class DocumentComponent implements IDocumentComponent {
             List<?> dataList = request.getDocument().getDataList();
             //批量操作
             BulkRequest bulkRequest = new BulkRequest();
-            dataList.forEach(item->{
+            for (int i = 0; i < dataList.size(); i++) {
                 IndexRequest indexRequest = new IndexRequest();
                 indexRequest.index(index.getIndexName());
-                String json = JsonUtils.entityToJson(request.getDocument().getData());
+                String json = JsonUtils.entityToJson(dataList.get(i));
                 indexRequest.source(json, XContentType.JSON);
                 bulkRequest.add(indexRequest);
-            });
+            }
             client.bulk(bulkRequest, RequestOptions.DEFAULT);
             revertClient(client);
         } catch (Exception e) {
@@ -187,6 +217,10 @@ public class DocumentComponent implements IDocumentComponent {
         }
     }
 
+    private void dealAggregation(SearchSourceBuilder builder,ElasticRequest request){
+        builder.aggregation(request.getAggregation());
+    }
+
     private void dealHighlight(SearchSourceBuilder builder, ElasticRequest request) {
         if (request.getHighlight() != null) {
             HighlightBuilder highlightBuilder = new HighlightBuilder();
@@ -205,8 +239,15 @@ public class DocumentComponent implements IDocumentComponent {
 
     private SearchRequest dealIndex(ElasticRequest request) {
         SearchRequest searchRequest;
-        if (request.getIndex() != null) {
-            searchRequest = new SearchRequest(request.getIndex().getIndexName());
+        ElasticIndex index = request.getIndex();
+        if (index != null) {
+            if (index.getIndexName()!=null){
+                searchRequest = new SearchRequest(index.getIndexName());
+            }else if (index.getAlias()!=null){
+                searchRequest=new SearchRequest(index.getAlias());
+            }else {
+                searchRequest = new SearchRequest("*");
+            }
         } else {
             searchRequest = new SearchRequest("*");
         }
@@ -247,4 +288,6 @@ public class DocumentComponent implements IDocumentComponent {
         revertClient(client);
         return dataList;
     }
+
+
 }

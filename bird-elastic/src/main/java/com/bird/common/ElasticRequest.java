@@ -2,6 +2,7 @@ package com.bird.common;
 
 import lombok.Data;
 import org.elasticsearch.index.query.QueryBuilder;
+import org.elasticsearch.search.aggregations.AggregationBuilder;
 
 import java.util.List;
 
@@ -37,5 +38,11 @@ public class ElasticRequest {
      * 文档对象
      */
     private ElasticDocument<?> document;
+
+    /**
+     * 聚合对象
+     */
+    private AggregationBuilder aggregation;
+
 
 }
