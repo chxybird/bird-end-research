@@ -118,7 +118,9 @@ public class DocumentComponent implements IDocumentComponent {
             dealAggregation(builder,request);
             //执行检索
             searchRequest.source(builder);
-            return client.search(searchRequest, RequestOptions.DEFAULT);
+            SearchResponse searchResponse = client.search(searchRequest, RequestOptions.DEFAULT);
+            revertClient(client);
+            return searchResponse;
         } catch (Exception e) {
             log.error("ES文档检索异常");
             throw new ElasticException("ES文档检索异常");

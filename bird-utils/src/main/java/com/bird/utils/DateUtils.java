@@ -171,9 +171,8 @@ public class DateUtils {
 
 
 
-
     @Data
-    static class Point {
+    public static class Point {
         private String name;
         private String key;
         private LocalDateTime start;

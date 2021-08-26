@@ -6,13 +6,17 @@ import com.bird.common.ElasticRequest;
 import com.bird.component.impl.DocumentComponent;
 import com.bird.component.impl.IndexComponent;
 import com.bird.config.ElasticConfig;
+import com.bird.domain.DataVo;
+import com.bird.entity.EsLog;
 import com.bird.factory.ElasticClientFactory;
+import com.bird.utils.DateUtils;
 import com.bird.utils.JsonUtils;
 import lombok.extern.slf4j.Slf4j;
 import org.elasticsearch.action.search.SearchRequest;
 import org.elasticsearch.action.search.SearchResponse;
 import org.elasticsearch.client.RequestOptions;
 import org.elasticsearch.client.RestHighLevelClient;
+import org.elasticsearch.index.query.QueryBuilders;
 import org.elasticsearch.search.aggregations.*;
 import org.elasticsearch.search.aggregations.bucket.terms.ParsedLongTerms;
 import org.elasticsearch.search.aggregations.bucket.terms.ParsedTerms;
@@ -28,6 +32,9 @@ import org.springframework.core.io.ClassPathResource;
 
 import javax.annotation.Resource;
 import java.io.IOException;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
@@ -90,26 +97,79 @@ public class ComponentServiceTest {
      */
     @Test
     void getTop() {
+        //获取今日凌晨12:00:00时间 也就是明日的00:00:00
+        LocalDateTime localDateTime = LocalDateTime.now();
+        LocalDateTime tomorrow = localDateTime.withHour(0).withMinute(0).withSecond(0).plusDays(1);
+        LocalDateTime yesterday = tomorrow.plusDays(-1);
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
+        String tomorrowStr = formatter.format(tomorrow);
+        String yesterdayStr = formatter.format(yesterday);
+
+
         TermsAggregationBuilder aggregation = AggregationBuilders
-                .terms("username").field("username");
+                .terms("username").field("username").size(2);
         aggregation.subAggregation(AggregationBuilders.count("count").field("username"));
         ElasticBuilder builder = new ElasticRequestBuilder();
         ElasticRequest request = builder.buildWithIndex(new ElasticIndex().alias("bird-log"))
                 .buildWithAggregation(aggregation)
+//                .buildWithQuery(QueryBuilders.rangeQuery("logDate").from(yesterdayStr).to(tomorrowStr))
                 .build();
         SearchResponse searchResponse = documentComponent.aggregation(request);
         Aggregations aggregations = searchResponse.getAggregations();
-        Terms termsByUsername= aggregations.get("username");
+        Terms termsByUsername = aggregations.get("username");
         List<? extends Terms.Bucket> buckets = termsByUsername.getBuckets();
-        buckets.forEach((item)->{
+        List<DataVo> dataVoList=new ArrayList<>();
+        buckets.forEach((item) -> {
+            DataVo dataVo=new DataVo();
             //获取每个桶的标识
             String key = item.getKeyAsString();
-            System.out.println(key);
             //拿每个桶的不同指标结果 注意使用具体的聚合类型接收 不然多态下获取不了value
             ParsedValueCount valueCount = item.getAggregations().get("count");
             long value = valueCount.getValue();
-            System.out.println(value);
+            dataVo.setKey(key);
+            dataVo.setValue((int) value);
+            dataVoList.add(dataVo);
         });
+
+        dataVoList.forEach(System.out::println);
+    }
+
+    /**
+     * @Author lipu
+     * @Date 2021/8/26 9:19
+     * @Description 获取一个用户时间范围内不同时间点的访问次数
+     */
+    @Test
+    void getUserInterViewByTime() {
+        DateTimeFormatter formatter=DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
+        //获取今日凌晨12:00:00时间 也就是明日的00:00:00
+        LocalDateTime localDateTime = LocalDateTime.now();
+        LocalDateTime tomorrow = localDateTime.withHour(0).withMinute(0).withSecond(0).plusDays(1);
+        String tomorrowStr = formatter.format(tomorrow);
+        LocalDateTime yesterday = tomorrow.plusDays(-1);
+        String yesterdayStr = formatter.format(yesterday);
+        List<DateUtils.Point> pointList = DateUtils.getDayPoint();
+        ElasticBuilder builder = new ElasticRequestBuilder();
+        List<DataVo> dataVoList =new ArrayList<>();
+        //查询每个时间段的数据
+        pointList.forEach(item->{
+            DataVo dataVo=new DataVo();
+            ElasticRequest request = builder.buildWithIndex(new ElasticIndex().alias("bird-log"))
+                    .buildWithQuery(QueryBuilders.boolQuery()
+                            .must(QueryBuilders.termQuery("username","lp"))
+                            .must(QueryBuilders.rangeQuery("logDate").from(item.getStartStr()).to(item.getEndStr()))
+                    )
+                    .build();
+            List<EsLog> logList = documentComponent.search(request, EsLog.class);
+            dataVo.setKey(item.getName());
+            dataVo.setValue(logList.size());
+            dataVoList.add(dataVo);
+        });
+
+        dataVoList.forEach(System.out::println);
+
+
+        System.out.println("---执行结束---");
     }
 
     /**
@@ -132,7 +192,7 @@ public class ComponentServiceTest {
         Aggregations aggregations = searchResponse.getAggregations();
         Terms sexAggregation = aggregations.get("byUsername");
         List<? extends Terms.Bucket> buckets = sexAggregation.getBuckets();
-        buckets.forEach(item->{
+        buckets.forEach(item -> {
             //获取每个桶的标识
             String key = item.getKeyAsString();
             System.out.println(key);
