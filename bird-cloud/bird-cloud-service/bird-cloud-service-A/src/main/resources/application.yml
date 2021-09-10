@@ -1,0 +1,11 @@
+server:
+  port: 30000
+spring:
+  application:
+    name: bird-cloud-service-A
+
+#Eureka配置
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:19086/eureka,http://127.0.0.1:19087/eureka,http://127.0.0.1:19088/eureka

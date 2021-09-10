@@ -1,0 +1,16 @@
+server:
+  port: 19086
+spring:
+  application:
+    name: bird-cloud-eureka
+eureka:
+  client:
+    #配置不注册自己信息，不抓取自己的数据
+    register-with-eureka: false
+    fetch-registry: false
+    service-url:
+      #Eureka服务地址
+      defaultZone: http://127.0.0.1:19086/eureka,http://127.0.0.1:19087/eureka,http://127.0.0.1:19088/eureka
+  server:
+    #服务端是否开启自我保护机制 （默认true）
+    enable-self-preservation: false

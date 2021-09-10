@@ -170,6 +170,33 @@ public class DateUtils {
     }
 
 
+    public static List<Point> getHalfDayPointTest(){
+        LocalDateTime localDateTime = LocalDateTime.now();
+        List<Point> pointList = new ArrayList<>();
+        //切分6个时间点
+        for (int i = 0; i < 30; i++) {
+            Point point=new Point();
+            LocalDateTime beforePoint = localDateTime.plusDays(-1 - i);
+            LocalDateTime afterPoint = localDateTime.plusDays(-i);
+            String startStr = TIME_FORMATTER.format(beforePoint);
+            String endStr = TIME_FORMATTER.format(afterPoint);
+
+            //组装key与value
+            String beforeStr = TIME_FORMATTER.format(beforePoint);
+            String afterStr = TIME_FORMATTER.format(afterPoint);
+            String key = beforeStr + "~" + afterStr;
+            point.setKey(key);
+            point.setStart(beforePoint);
+            point.setEnd(afterPoint);
+            point.setStartStr(startStr);
+            point.setEndStr(endStr);
+            point.setName(afterStr);
+            pointList.add(point);
+        }
+        return pointList;
+    }
+
+
 
     @Data
     public static class Point {
@@ -183,7 +210,7 @@ public class DateUtils {
 
 
     public static void main(String[] args) {
-        List<Point> pointList = getYearPoint();
+        List<Point> pointList = getHalfDayPointTest();
         pointList.forEach(item->{
             System.out.println(item);
         });

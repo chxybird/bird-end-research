@@ -1,6 +1,7 @@
 import com.bird.ElasticStackApp;
 import com.bird.builder.ElasticBuilder;
 import com.bird.builder.ElasticRequestBuilder;
+import com.bird.common.ElasticDocument;
 import com.bird.common.ElasticIndex;
 import com.bird.common.ElasticRequest;
 import com.bird.component.impl.DocumentComponent;
@@ -118,9 +119,9 @@ public class ComponentServiceTest {
         Aggregations aggregations = searchResponse.getAggregations();
         Terms termsByUsername = aggregations.get("username");
         List<? extends Terms.Bucket> buckets = termsByUsername.getBuckets();
-        List<DataVo> dataVoList=new ArrayList<>();
+        List<DataVo> dataVoList = new ArrayList<>();
         buckets.forEach((item) -> {
-            DataVo dataVo=new DataVo();
+            DataVo dataVo = new DataVo();
             //获取每个桶的标识
             String key = item.getKeyAsString();
             //拿每个桶的不同指标结果 注意使用具体的聚合类型接收 不然多态下获取不了value
@@ -141,7 +142,7 @@ public class ComponentServiceTest {
      */
     @Test
     void getUserInterViewByTime() {
-        DateTimeFormatter formatter=DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
         //获取今日凌晨12:00:00时间 也就是明日的00:00:00
         LocalDateTime localDateTime = LocalDateTime.now();
         LocalDateTime tomorrow = localDateTime.withHour(0).withMinute(0).withSecond(0).plusDays(1);
@@ -150,13 +151,13 @@ public class ComponentServiceTest {
         String yesterdayStr = formatter.format(yesterday);
         List<DateUtils.Point> pointList = DateUtils.getDayPoint();
         ElasticBuilder builder = new ElasticRequestBuilder();
-        List<DataVo> dataVoList =new ArrayList<>();
+        List<DataVo> dataVoList = new ArrayList<>();
         //查询每个时间段的数据
-        pointList.forEach(item->{
-            DataVo dataVo=new DataVo();
+        pointList.forEach(item -> {
+            DataVo dataVo = new DataVo();
             ElasticRequest request = builder.buildWithIndex(new ElasticIndex().alias("bird-log"))
                     .buildWithQuery(QueryBuilders.boolQuery()
-                            .must(QueryBuilders.termQuery("username","lp"))
+                            .must(QueryBuilders.termQuery("username", "lp"))
                             .must(QueryBuilders.rangeQuery("logDate").from(item.getStartStr()).to(item.getEndStr()))
                     )
                     .build();
@@ -202,5 +203,47 @@ public class ComponentServiceTest {
             long value = count.getValue();
             System.out.println(value);
         });
+    }
+
+
+    /**
+     * @Author lipu
+     * @Date 2021/8/27 16:26
+     * @Description 原生API查询分组结果
+     */
+    @Test
+    void getType() throws Exception {
+        RestHighLevelClient client = factory.getClient();
+        SearchRequest searchRequest = new SearchRequest("bird-log");
+        SearchSourceBuilder searchSourceBuilder = new SearchSourceBuilder();
+        TermsAggregationBuilder aggregation = AggregationBuilders.terms("byOperationType")
+                .field("operationType");
+        searchSourceBuilder.aggregation(aggregation);
+        searchRequest.source(searchSourceBuilder);
+        SearchResponse searchResponse = client.search(searchRequest, RequestOptions.DEFAULT);
+        Aggregations aggregations = searchResponse.getAggregations();
+        Terms sexAggregation = aggregations.get("byOperationType");
+        List<? extends Terms.Bucket> buckets = sexAggregation.getBuckets();
+        List<String> typeList = new ArrayList<>();
+        buckets.forEach(item -> {
+            //获取每个桶的标识
+            String key = item.getKeyAsString();
+            typeList.add(key);
+        });
+        System.out.println(typeList);
+    }
+
+    /**
+     * @Author lipu
+     * @Date 2021/9/6 9:41
+     * @Description 插入文档数据 索引库不存在 指定索引别名
+     */
+    @Test
+    void insertWithoutIndex() {
+
+        ElasticBuilder builder = new ElasticRequestBuilder();
+        ElasticRequest request = builder.buildWithIndex(new ElasticIndex().indexName("test-one").alias("bird"))
+                .buildWithDocument(new ElasticDocument<DataVo>().data(new DataVo("张三",20))).build();
+        documentComponent.insert(request);
     }
 }

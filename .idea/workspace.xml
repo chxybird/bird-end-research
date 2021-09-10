@@ -10,17 +10,106 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="03653840-f94b-4cb8-9e89-2797550a885d" name="Default Changelist" comment="2021-01-01 调研提交">
-      <change afterPath="$PROJECT_DIR$/bird-elastic/src/main/java/com/bird/domain/DataVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bird-elastic/src/main/java/com/bird/entity/EsLog.java" afterDir="false" />
+    <list default="true" id="03653840-f94b-4cb8-9e89-2797550a885d" name="Default Changelist" comment="调研提交">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_xml_2_11_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_woodstox_woodstox_core_5_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_inject_guice_4_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_eureka_eureka_client_1_10_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_eureka_eureka_core_1_10_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_eventbus_0_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_infix_0_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_eureka_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_client_1_19_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_server_1_19_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_servlet_1_19_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_thoughtworks_xstream_xstream_1_4_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_configuration_commons_configuration_1_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_jxpath_commons_jxpath_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_micrometer_micrometer_core_1_5_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_5_12_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_context_slf4j_5_12_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_http_5_12_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_httpasyncclient_5_12_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_httpclient_5_12_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_jms_5_12_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_kafka_clients_5_12_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_kafka_streams_5_12_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_messaging_5_12_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_rpc_5_12_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_servlet_5_12_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_spring_rabbit_5_12_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_spring_web_5_12_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_spring_webmvc_5_12_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_reporter2_zipkin_reporter_2_15_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_reporter2_zipkin_reporter_brave_2_15_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_reporter2_zipkin_reporter_metrics_micrometer_2_15_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_reporter2_zipkin_sender_activemq_client_2_15_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_reporter2_zipkin_sender_amqp_client_2_15_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_reporter2_zipkin_sender_kafka_2_15_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_zipkin2_zipkin_2_21_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_antlr_runtime_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_stringtemplate_3_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_math_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjrt_1_9_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jettison_jettison_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_woodstox_stax2_api_4_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_woodstox_stax2_api_4_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_latencyutils_LatencyUtils_2_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_2_3_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_autoconfigure_2_3_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_actuator_2_3_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_eureka_client_2_2_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_eureka_server_2_2_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_sleuth_core_2_2_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_sleuth_zipkin_2_2_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_eureka_client_2_2_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_eureka_server_2_2_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_sleuth_2_2_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_zipkin_2_2_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xmlpull_xmlpull_1_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xpp3_xpp3_min_1_1_4c.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bird-cloud/bird-cloud-service/bird-cloud-eureka/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bird-cloud/bird-cloud-service/bird-cloud-eureka/src/main/java/com/bird/Eureka.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bird-cloud/bird-cloud-service/bird-cloud-eureka/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bird-cloud/bird-cloud-service/bird-cloud-service-A/bird-cloud-service-A.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bird-cloud/bird-cloud-service/bird-cloud-service-A/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bird-cloud/bird-cloud-service/bird-cloud-service-A/src/main/java/com/bird/BirdCloudServiceA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bird-cloud/bird-cloud-service/bird-cloud-service-A/src/main/java/com/bird/controller/CloudServiceAController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bird-cloud/bird-cloud-service/bird-cloud-service-A/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bird-cloud/bird-cloud-service/bird-cloud-service-X/bird-cloud-service-X.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bird-cloud/bird-cloud-service/bird-cloud-service-X/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bird-cloud/bird-cloud-service/bird-cloud-service-X/src/main/java/com/bird/BirdCloudServiceX.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bird-cloud/bird-cloud-service/bird-cloud-service-X/src/main/java/com/bird/config/ApplicationContextConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bird-cloud/bird-cloud-service/bird-cloud-service-X/src/main/java/com/bird/controller/CloudServiceXController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bird-cloud/bird-cloud-service/bird-cloud-service-X/src/main/java/com/bird/rpc/RpcServiceA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bird-cloud/bird-cloud-service/bird-cloud-service-X/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bird-cloud/bird-cloud-service/bird-cloud-service.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bird-cloud/bird-cloud-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bird-task/src/main/java/com/bird/TaskController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bird-task/src/main/java/com/bird/component/TaskComponent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bird-elastic/bird-elastic.iml" beforeDir="false" afterPath="$PROJECT_DIR$/bird-elastic/bird-elastic.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bird-elastic/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bird-elastic/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bird-elastic/src/main/java/com/bird/component/impl/DocumentComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/bird-elastic/src/main/java/com/bird/component/impl/DocumentComponent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bird-elastic/src/main/java/com/bird/utils/HighLevelUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bird-cicd/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bird-cicd/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bird-cloud/bird-service/bird-zk-service-X/src/main/java/com/bird/config/ZookeeperConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bird-cloud/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bird-cloud/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bird-elastic/src/main/java/com/bird/domain/DataVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/bird-elastic/src/main/java/com/bird/domain/DataVo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bird-elastic/src/test/java/ComponentServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/bird-elastic/src/test/java/ComponentServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bird-elastic/target/classes/com/bird/utils/HighLevelUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bird-jdk/src/main/java/com/bird/stream/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/bird-jdk/src/main/java/com/bird/stream/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bird-jdk/target/classes/com/bird/date/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/bird-jdk/target/classes/com/bird/date/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bird-jdk/target/classes/com/bird/lambda/Client$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bird-jdk/target/classes/com/bird/lambda/Client$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bird-jdk/target/classes/com/bird/lambda/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/bird-jdk/target/classes/com/bird/lambda/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bird-jdk/target/classes/com/bird/optional/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/bird-jdk/target/classes/com/bird/optional/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bird-jdk/target/classes/com/bird/stream/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/bird-jdk/target/classes/com/bird/stream/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bird-jdk/target/classes/com/bird/stream/material/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/bird-jdk/target/classes/com/bird/stream/material/Student.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bird-utils/src/main/java/com/bird/utils/DateUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/bird-utils/src/main/java/com/bird/utils/DateUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/untitled.iml" beforeDir="false" afterPath="$PROJECT_DIR$/bird-cloud/bird-cloud-service/bird-cloud-eureka/bird-cloud-eureka.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,12 +145,15 @@
     </option>
   </component>
   <component name="ProjectId" id="1nQRbdeKZeqauf87hGQntaPwjpZ" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
@@ -84,15 +176,6 @@
     <option name="notificationShown" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\workspace\DistributedMicroservices\bird-research\bird-excel\src\main\resources\images" />
-      <recent name="F:\workspace\DistributedMicroservices\bird-research\bird-excel\src\main\resources\static" />
-      <recent name="F:\workspace\DistributedMicroservices\bird-research\bird-jdk\src\main\resources\document" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.bird.entity" />
-      <recent name="com.bird.utils" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\workspace\DistributedMicroservices\bird-research\bird-elastic\src\main\java\com\bird\utils" />
       <recent name="F:\workspace\DistributedMicroservices\bird-research\bird-elastic\src\main\java\com\bird" />
@@ -100,14 +183,30 @@
       <recent name="F:\workspace\DistributedMicroservices\bird-research\bird-hadoop\src\main\java\com\bird\mapred\demo2" />
       <recent name="F:\workspace\DistributedMicroservices\bird-research\bird-hadoop\src\main\resources" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.bird.entity" />
+      <recent name="com.bird.utils" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\workspace\DistributedMicroservices\bird-research\bird-excel\src\main\resources\images" />
+      <recent name="F:\workspace\DistributedMicroservices\bird-research\bird-excel\src\main\resources\static" />
+      <recent name="F:\workspace\DistributedMicroservices\bird-research\bird-jdk\src\main\resources\document" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.ComponentServiceTest.getTop">
-    <configuration name="DateUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.bird.utils.DateUtils" />
-      <module name="bird-utils" />
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Client">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bird.stream.Client" />
+      <module name="bird-jdk" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.bird.utils.*" />
+          <option name="PATTERN" value="com.bird.stream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,60 +227,77 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ComponentServiceTest.getTop" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ComponentServiceTest.getType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="bird-elastic" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ComponentServiceTest" />
-      <option name="METHOD_NAME" value="getTop" />
+      <option name="METHOD_NAME" value="getType" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ComponentServiceTest.getUserInterViewByTime" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="bird-elastic" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ComponentServiceTest" />
-      <option name="METHOD_NAME" value="getUserInterViewByTime" />
-      <option name="TEST_OBJECT" value="method" />
+    <configuration name="App" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="bird-cicd" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bird.App" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ComponentServiceTest.init" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="bird-elastic" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ComponentServiceTest" />
-      <option name="METHOD_NAME" value="init" />
-      <option name="TEST_OBJECT" value="method" />
+    <configuration name="BirdCloudServiceA" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="bird-cloud-service-A" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bird.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bird.BirdCloudServiceA" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ComponentServiceTest.topApi" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="bird-elastic" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ComponentServiceTest" />
-      <option name="METHOD_NAME" value="topApi" />
-      <option name="TEST_OBJECT" value="method" />
+    <configuration name="BirdCloudServiceX" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="bird-cloud-service-X" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bird.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bird.BirdCloudServiceX" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Eureka" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="bird-cloud-eureka" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bird.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bird.Eureka" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.DateUtils" />
-      <item itemvalue="JUnit.ComponentServiceTest.init" />
-      <item itemvalue="JUnit.ComponentServiceTest.getTop" />
-      <item itemvalue="JUnit.ComponentServiceTest.topApi" />
-      <item itemvalue="JUnit.ComponentServiceTest.getUserInterViewByTime" />
+      <item itemvalue="Application.Client" />
+      <item itemvalue="JUnit.ComponentServiceTest.getType" />
+      <item itemvalue="Spring Boot.App" />
+      <item itemvalue="Spring Boot.Eureka" />
+      <item itemvalue="Spring Boot.BirdCloudServiceA" />
+      <item itemvalue="Spring Boot.BirdCloudServiceX" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ComponentServiceTest.getTop" />
-        <item itemvalue="JUnit.ComponentServiceTest.getUserInterViewByTime" />
-        <item itemvalue="Application.DateUtils" />
-        <item itemvalue="JUnit.ComponentServiceTest.topApi" />
-        <item itemvalue="JUnit.ComponentServiceTest.init" />
+        <item itemvalue="Application.Client" />
+        <item itemvalue="Spring Boot.BirdCloudServiceA" />
+        <item itemvalue="Spring Boot.BirdCloudServiceX" />
+        <item itemvalue="Spring Boot.Eureka" />
+        <item itemvalue="JUnit.ComponentServiceTest.getType" />
       </list>
     </recent_temporary>
   </component>
@@ -355,14 +471,20 @@
       <workItem from="1629432165426" duration="6382000" />
       <workItem from="1629789030138" duration="3055000" />
       <workItem from="1629874576692" duration="17638000" />
-      <workItem from="1629937447653" duration="7968000" />
-    </task>
-    <task id="LOCAL-00027" summary="调研提交">
-      <created>1618298328247</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1618298328247</updated>
+      <workItem from="1629937447653" duration="13289000" />
+      <workItem from="1630051657228" duration="593000" />
+      <workItem from="1630052764758" duration="1017000" />
+      <workItem from="1630370153638" duration="1724000" />
+      <workItem from="1630629499323" duration="1555000" />
+      <workItem from="1630892430480" duration="3512000" />
+      <workItem from="1630928378428" duration="3284000" />
+      <workItem from="1631008706139" duration="653000" />
+      <workItem from="1631014140009" duration="214000" />
+      <workItem from="1631063959995" duration="4050000" />
+      <workItem from="1631069818196" duration="8405000" />
+      <workItem from="1631171737803" duration="2376000" />
+      <workItem from="1631241356682" duration="3450000" />
+      <workItem from="1631279222406" duration="841000" />
     </task>
     <task id="LOCAL-00028" summary="调研提交">
       <created>1618302555249</created>
@@ -700,7 +822,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629894513347</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="调研提交">
+      <created>1629946624323</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1629946624324</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -741,21 +870,22 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="调研初始化" />
-    <MESSAGE value="调研提交" />
     <MESSAGE value="2021-01-01 初始化" />
     <MESSAGE value="2021-01-01 调研提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="2021-01-01 调研提交" />
+    <MESSAGE value="调研提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="调研提交" />
   </component>
   <component name="WindowStateProjectService">
     <state x="651" y="274" key="#Notifications" timestamp="1629196340064">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="651" y="274" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1629196340064" />
-    <state x="249" y="0" key="#Project_Structure" timestamp="1624266864778">
+    <state x="249" y="0" key="#Project_Structure" timestamp="1630654583290">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="249" y="0" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1624266864778" />
+    <state x="249" y="0" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1630654583290" />
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1629282972453">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -772,66 +902,62 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="153" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1629789054444" />
-    <state width="1492" height="507" key="GridCell.Tab.0.bottom" timestamp="1629944883448">
+    <state width="1492" height="239" key="GridCell.Tab.0.bottom" timestamp="1631267229245">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1492" height="507" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1629944883448" />
-    <state width="1492" height="507" key="GridCell.Tab.0.center" timestamp="1629944883447">
+    <state width="1492" height="239" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1631267229245" />
+    <state width="1492" height="239" key="GridCell.Tab.0.center" timestamp="1631267229245">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1492" height="507" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1629944883447" />
-    <state width="1492" height="507" key="GridCell.Tab.0.left" timestamp="1629944883447">
+    <state width="1492" height="239" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1631267229245" />
+    <state width="1492" height="239" key="GridCell.Tab.0.left" timestamp="1631267229245">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1492" height="507" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1629944883447" />
-    <state width="1492" height="507" key="GridCell.Tab.0.right" timestamp="1629944883447">
+    <state width="1492" height="239" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1631267229245" />
+    <state width="1492" height="239" key="GridCell.Tab.0.right" timestamp="1631267229245">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1492" height="507" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1629944883447" />
-    <state width="1492" height="375" key="GridCell.Tab.1.bottom" timestamp="1629944004823">
+    <state width="1492" height="239" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1631267229245" />
+    <state width="1199" height="480" key="GridCell.Tab.1.bottom" timestamp="1631106815301">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1492" height="375" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1629944004823" />
-    <state width="1492" height="375" key="GridCell.Tab.1.center" timestamp="1629944004823">
+    <state width="1199" height="480" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1631106815301" />
+    <state width="1199" height="480" key="GridCell.Tab.1.center" timestamp="1631106815300">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1492" height="375" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1629944004823" />
-    <state width="1492" height="375" key="GridCell.Tab.1.left" timestamp="1629944004823">
+    <state width="1199" height="480" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1631106815300" />
+    <state width="1199" height="480" key="GridCell.Tab.1.left" timestamp="1631106815300">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1492" height="375" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1629944004823" />
-    <state width="1492" height="375" key="GridCell.Tab.1.right" timestamp="1629944004823">
+    <state width="1199" height="480" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1631106815300" />
+    <state width="1199" height="480" key="GridCell.Tab.1.right" timestamp="1631106815300">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1492" height="375" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1629944004823" />
-    <state width="1492" height="309" key="GridCell.Tab.2.bottom" timestamp="1623404412108">
+    <state width="1199" height="480" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1631106815300" />
+    <state width="1199" height="480" key="GridCell.Tab.2.bottom" timestamp="1631106815301">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1492" height="309" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1623404412108" />
-    <state width="1492" height="309" key="GridCell.Tab.2.center" timestamp="1623404412108">
+    <state width="1199" height="480" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1631106815301" />
+    <state width="1199" height="480" key="GridCell.Tab.2.center" timestamp="1631106815301">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1492" height="309" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1623404412108" />
-    <state width="1492" height="309" key="GridCell.Tab.2.left" timestamp="1623404412108">
+    <state width="1199" height="480" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1631106815301" />
+    <state width="1199" height="480" key="GridCell.Tab.2.left" timestamp="1631106815301">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1492" height="309" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1623404412108" />
-    <state width="1492" height="309" key="GridCell.Tab.2.right" timestamp="1623404412108">
+    <state width="1199" height="480" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1631106815301" />
+    <state width="1199" height="480" key="GridCell.Tab.2.right" timestamp="1631106815301">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1492" height="309" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1623404412108" />
-    <state x="299" y="67" key="Maven.ArtifactSearchDialog" timestamp="1621696236479">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="299" y="67" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1621696236479" />
+    <state width="1199" height="480" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1631106815301" />
     <state x="217" y="69" width="1224" height="711" key="SettingsEditor" timestamp="1629282310806">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="217" y="69" width="1224" height="711" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1629282310806" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1629894520875">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1629946631102">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1629894520875" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1629946631102" />
     <state width="775" height="419" key="XDebugger.FullValuePopup" timestamp="1629943383664">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -848,18 +974,18 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="526" y="272" key="extract.method.dialog/0.0.1536.824@0.0.1536.824" timestamp="1624240043362" />
-    <state x="170" y="94" key="new project wizard" timestamp="1629282418438">
+    <state x="356" y="98" key="new project wizard" timestamp="1631079635484">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="170" y="94" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1629282418438" />
-    <state x="425" y="187" key="run.anything.popup" timestamp="1621915090440">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1621915090440" />
+    <state x="356" y="98" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1631079635484" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1629433169944">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1629433169944" />
+    <state x="215" y="95" key="spring file set editor" timestamp="1631080556656">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="215" y="95" key="spring file set editor/0.0.1536.824@0.0.1536.824" timestamp="1631080556656" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>

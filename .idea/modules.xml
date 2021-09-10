@@ -5,6 +5,10 @@
       <module fileurl="file://$PROJECT_DIR$/bird-authority/bird-authority.iml" filepath="$PROJECT_DIR$/bird-authority/bird-authority.iml" />
       <module fileurl="file://$PROJECT_DIR$/bird-cicd/bird-cicd.iml" filepath="$PROJECT_DIR$/bird-cicd/bird-cicd.iml" />
       <module fileurl="file://$PROJECT_DIR$/bird-cloud/bird-cloud.iml" filepath="$PROJECT_DIR$/bird-cloud/bird-cloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bird-cloud/bird-cloud-service/bird-cloud-eureka/bird-cloud-eureka.iml" filepath="$PROJECT_DIR$/bird-cloud/bird-cloud-service/bird-cloud-eureka/bird-cloud-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bird-cloud/bird-cloud-service/bird-cloud-service.iml" filepath="$PROJECT_DIR$/bird-cloud/bird-cloud-service/bird-cloud-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bird-cloud/bird-cloud-service/bird-cloud-service-A/bird-cloud-service-A.iml" filepath="$PROJECT_DIR$/bird-cloud/bird-cloud-service/bird-cloud-service-A/bird-cloud-service-A.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bird-cloud/bird-cloud-service/bird-cloud-service-X/bird-cloud-service-X.iml" filepath="$PROJECT_DIR$/bird-cloud/bird-cloud-service/bird-cloud-service-X/bird-cloud-service-X.iml" />
       <module fileurl="file://$PROJECT_DIR$/bird-rabbitmq/bird-consumer/bird-consumer.iml" filepath="$PROJECT_DIR$/bird-rabbitmq/bird-consumer/bird-consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/bird-cryptology/bird-cryptology.iml" filepath="$PROJECT_DIR$/bird-cryptology/bird-cryptology.iml" />
       <module fileurl="file://$PROJECT_DIR$/bird-elastic/bird-elastic.iml" filepath="$PROJECT_DIR$/bird-elastic/bird-elastic.iml" />
@@ -31,7 +35,6 @@
       <module fileurl="file://$PROJECT_DIR$/bird-cloud/bird-service/bird-zk-service-B/bird-zk-service-B.iml" filepath="$PROJECT_DIR$/bird-cloud/bird-service/bird-zk-service-B/bird-zk-service-B.iml" />
       <module fileurl="file://$PROJECT_DIR$/bird-cloud/bird-service/bird-zk-service-X/bird-zk-service-X.iml" filepath="$PROJECT_DIR$/bird-cloud/bird-service/bird-zk-service-X/bird-zk-service-X.iml" />
       <module fileurl="file://$PROJECT_DIR$/service-common/service-common.iml" filepath="$PROJECT_DIR$/service-common/service-common.iml" />
-      <module fileurl="file://$PROJECT_DIR$/untitled/untitled.iml" filepath="$PROJECT_DIR$/untitled/untitled.iml" />
     </modules>
   </component>
 </project>

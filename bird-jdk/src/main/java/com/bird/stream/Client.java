@@ -231,10 +231,20 @@ public class Client {
         //将串行流转换为并行流 或者将并行流转换为串行流
         studentList.stream().parallel();
     }
+    
+    /**
+     * @Author lipu
+     * @Date 2021/9/10 10:37
+     * @Description 字符串拼接
+     */
+    public static void join(){
+        String nameString = studentList.stream().map(Student::getName).collect(Collectors.joining(","));
+        System.out.println(nameString);
+    }
 
 
 
     public static void main(String[] args) {
-        parallelStream();
+        join();
     }
 }

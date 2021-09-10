@@ -7,11 +7,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="bird-excel" />
+        <module name="bird-jdk" />
         <module name="bird-task" />
         <module name="bird-zk-service-A" />
-        <module name="untitled" />
-        <module name="bird-provider" />
         <module name="bird-qr" />
         <module name="bird-elastic" />
         <module name="bird-cryptology" />
@@ -23,16 +21,20 @@
         <module name="bird-CICD" />
         <module name="bird-log" />
         <module name="bird-mybatis-plus" />
-        <module name="bird-jdk" />
+        <module name="bird-provider" />
         <module name="bird-cicd" />
-        <module name="bird-springboot" />
+        <module name="bird-cloud-service-X" />
+        <module name="bird-consumer" />
+        <module name="bird-excel" />
         <module name="bird-hadoop" />
+        <module name="bird-cloud-eureka" />
         <module name="bird-leet-code" />
-        <module name="bird-zk-service-X" />
-        <module name="service-common" />
+        <module name="bird-cloud-service-A" />
+        <module name="bird-springboot" />
         <module name="bird-layui" />
         <module name="bird-utils" />
-        <module name="bird-consumer" />
+        <module name="service-common" />
+        <module name="bird-zk-service-X" />
         <module name="bird-webflux" />
       </profile>
     </annotationProcessing>
@@ -41,6 +43,10 @@
       <module name="bird-CICD" target="1.8" />
       <module name="bird-cicd" target="1.8" />
       <module name="bird-cloud" target="1.8" />
+      <module name="bird-cloud-eureka" target="1.8" />
+      <module name="bird-cloud-service" target="1.8" />
+      <module name="bird-cloud-service-A" target="1.8" />
+      <module name="bird-cloud-service-X" target="1.8" />
       <module name="bird-consumer" target="1.8" />
       <module name="bird-cryptology" target="1.8" />
       <module name="bird-elastic" target="1.8" />
@@ -77,6 +83,10 @@
       <module name="bird-authority" options="-parameters" />
       <module name="bird-cicd" options="-parameters" />
       <module name="bird-cloud" options="-parameters" />
+      <module name="bird-cloud-eureka" options="-parameters" />
+      <module name="bird-cloud-service" options="-parameters" />
+      <module name="bird-cloud-service-A" options="-parameters" />
+      <module name="bird-cloud-service-X" options="-parameters" />
       <module name="bird-consumer" options="-parameters" />
       <module name="bird-cryptology" options="-parameters" />
       <module name="bird-elastic" options="-parameters" />
