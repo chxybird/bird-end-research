@@ -1,8 +1,13 @@
-package com.bird;
+package com.bird.controller;
 
+import com.bird.component.TaskComponent;
+import com.bird.domain.TaskQo;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+
+import javax.annotation.Resource;
 
 /**
  * @Author lipu
@@ -12,6 +17,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/task")
 public class TaskController {
+    @Resource
+    private TaskComponent taskComponent;
 
     /**
      * @Author lipu
@@ -19,18 +26,8 @@ public class TaskController {
      * @Description 创建任务
      */
     @PostMapping("create-task")
-    public void createTask(){
-
-    }
-
-    /**
-     * @Author lipu
-     * @Date 2021/9/10 17:05
-     * @Description 开启任务
-     */
-    @PostMapping("start-task")
-    public void startTask(){
-
+    public void createTask(@RequestBody TaskQo taskQo){
+        taskComponent.start(taskQo.getTaskName(),taskQo.getCron());
     }
 
     /**
@@ -39,7 +36,7 @@ public class TaskController {
      * @Description 停止任务
      */
     @PostMapping("stop-task")
-    public void stopTask(){
-
+    public void stopTask(String taskName){
+        taskComponent.stop(taskName);
     }
 }
