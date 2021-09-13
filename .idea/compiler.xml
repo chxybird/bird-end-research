@@ -7,35 +7,36 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="bird-jdk" />
-        <module name="bird-task" />
-        <module name="bird-zk-service-A" />
-        <module name="bird-qr" />
-        <module name="bird-elastic" />
-        <module name="bird-cryptology" />
-        <module name="bird-zk-service-B" />
-        <module name="bird-authority" />
-        <module name="bird-mongodb" />
-        <module name="bird-json" />
-        <module name="bird-freemarker" />
-        <module name="bird-CICD" />
-        <module name="bird-log" />
-        <module name="bird-mybatis-plus" />
-        <module name="bird-provider" />
         <module name="bird-cicd" />
-        <module name="bird-cloud-service-X" />
-        <module name="bird-consumer" />
-        <module name="bird-excel" />
-        <module name="bird-hadoop" />
-        <module name="bird-cloud-eureka" />
-        <module name="bird-leet-code" />
-        <module name="bird-cloud-service-A" />
-        <module name="bird-springboot" />
-        <module name="bird-layui" />
-        <module name="bird-utils" />
-        <module name="service-common" />
-        <module name="bird-zk-service-X" />
+        <module name="bird-authority" />
         <module name="bird-webflux" />
+        <module name="service-common" />
+        <module name="bird-qr" />
+        <module name="bird-websocket" />
+        <module name="bird-mybatis-plus" />
+        <module name="bird-mongodb" />
+        <module name="bird-cloud-eureka" />
+        <module name="bird-task" />
+        <module name="bird-excel" />
+        <module name="bird-cloud-service-X" />
+        <module name="bird-leet-code" />
+        <module name="bird-zk-service-X" />
+        <module name="bird-log" />
+        <module name="bird-jdk" />
+        <module name="bird-elastic" />
+        <module name="bird-CICD" />
+        <module name="bird-consumer" />
+        <module name="bird-cloud-service-A" />
+        <module name="bird-zk-service-B" />
+        <module name="bird-zk-service-A" />
+        <module name="bird-utils" />
+        <module name="bird-freemarker" />
+        <module name="bird-hadoop" />
+        <module name="bird-layui" />
+        <module name="bird-provider" />
+        <module name="bird-json" />
+        <module name="bird-cryptology" />
+        <module name="bird-springboot" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -70,6 +71,7 @@
       <module name="bird-task" target="1.8" />
       <module name="bird-utils" target="1.8" />
       <module name="bird-webflux" target="1.8" />
+      <module name="bird-websocket" target="1.8" />
       <module name="bird-zk-service-A" target="1.8" />
       <module name="bird-zk-service-B" target="1.8" />
       <module name="bird-zk-service-X" target="1.8" />
@@ -109,6 +111,7 @@
       <module name="bird-task" options="-parameters" />
       <module name="bird-utils" options="-parameters" />
       <module name="bird-webflux" options="-parameters" />
+      <module name="bird-websocket" options="-parameters" />
       <module name="bird-zk-service-A" options="-parameters" />
       <module name="bird-zk-service-B" options="-parameters" />
       <module name="bird-zk-service-X" options="-parameters" />

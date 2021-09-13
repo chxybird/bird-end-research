@@ -26,6 +26,7 @@
         <module>bird-hadoop</module>
         <module>bird-log</module>
         <module>bird-cicd</module>
+        <module>bird-websocket</module>
     </modules>
 
     <packaging>pom</packaging>
