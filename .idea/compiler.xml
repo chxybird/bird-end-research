@@ -8,12 +8,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="bird-cicd" />
-        <module name="bird-authority" />
         <module name="bird-webflux" />
-        <module name="service-common" />
+        <module name="bird-authority" />
         <module name="bird-qr" />
         <module name="bird-websocket" />
         <module name="bird-mybatis-plus" />
+        <module name="service-common" />
+        <module name="bird-base" />
         <module name="bird-mongodb" />
         <module name="bird-cloud-eureka" />
         <module name="bird-task" />
@@ -24,6 +25,7 @@
         <module name="bird-log" />
         <module name="bird-jdk" />
         <module name="bird-elastic" />
+        <module name="bird-shell" />
         <module name="bird-CICD" />
         <module name="bird-consumer" />
         <module name="bird-cloud-service-A" />
@@ -41,7 +43,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="bird-authority" target="1.8" />
-      <module name="bird-CICD" target="1.8" />
+      <module name="bird-base" target="9" />
       <module name="bird-cicd" target="1.8" />
       <module name="bird-cloud" target="1.8" />
       <module name="bird-cloud-eureka" target="1.8" />
@@ -66,7 +68,7 @@
       <module name="bird-rabbitmq" target="1.8" />
       <module name="bird-research" target="1.8" />
       <module name="bird-service" target="1.8" />
-      <module name="bird-service-common" target="1.8" />
+      <module name="bird-shell" target="1.8" />
       <module name="bird-springboot" target="1.8" />
       <module name="bird-task" target="1.8" />
       <module name="bird-utils" target="1.8" />
@@ -76,13 +78,12 @@
       <module name="bird-zk-service-B" target="1.8" />
       <module name="bird-zk-service-X" target="1.8" />
       <module name="service-common" target="1.8" />
-      <module name="untitled" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="bird-CICD" options="-parameters" />
       <module name="bird-authority" options="-parameters" />
+      <module name="bird-base" options="-parameters" />
       <module name="bird-cicd" options="-parameters" />
       <module name="bird-cloud" options="-parameters" />
       <module name="bird-cloud-eureka" options="-parameters" />
@@ -106,7 +107,7 @@
       <module name="bird-qr" options="-parameters" />
       <module name="bird-rabbitmq" options="-parameters" />
       <module name="bird-service" options="-parameters" />
-      <module name="bird-service-common" options="-parameters" />
+      <module name="bird-shell" options="-parameters" />
       <module name="bird-springboot" options="-parameters" />
       <module name="bird-task" options="-parameters" />
       <module name="bird-utils" options="-parameters" />
@@ -116,7 +117,6 @@
       <module name="bird-zk-service-B" options="-parameters" />
       <module name="bird-zk-service-X" options="-parameters" />
       <module name="service-common" options="-parameters" />
-      <module name="untitled" options="-parameters" />
     </option>
   </component>
 </project>

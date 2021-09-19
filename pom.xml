@@ -27,6 +27,8 @@
         <module>bird-log</module>
         <module>bird-cicd</module>
         <module>bird-websocket</module>
+        <module>bird-base</module>
+        <module>bird-shell</module>
     </modules>
 
     <packaging>pom</packaging>
