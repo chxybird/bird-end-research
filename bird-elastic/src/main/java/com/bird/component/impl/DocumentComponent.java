@@ -78,6 +78,7 @@ public class DocumentComponent implements IDocumentComponent {
             //索引处理
             SearchRequest searchRequest = dealIndex(request);
             SearchSourceBuilder builder = new SearchSourceBuilder();
+            builder.size(Integer.MAX_VALUE);
             //条件处理
             dealQuery(builder, request);
             //分页处理

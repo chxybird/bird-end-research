@@ -31,12 +31,13 @@ public class RestUtils {
         restTemplate.getMessageConverters().set(1, new StringHttpMessageConverter(StandardCharsets.UTF_8));
         //设置restTemplate支持发送GET请求设置body数据
         restTemplate.setRequestFactory(new RestClientFactory());
+
     }
 
     /**
      * @Author lipu
      * @Date 2021/4/19 10:38
-     * @Description url参数拼接
+     * @Description url参数拼接 需要升级支持占位符的参数拼接
      */
     private static String paramInstall(String url, Map<String, Object> param) {
         UriComponentsBuilder builder = UriComponentsBuilder.fromHttpUrl(url);

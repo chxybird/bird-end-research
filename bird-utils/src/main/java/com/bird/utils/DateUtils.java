@@ -5,10 +5,7 @@ import lombok.Data;
 import java.text.SimpleDateFormat;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 /**
  * @Author lipu
@@ -169,33 +166,15 @@ public class DateUtils {
         return pointList;
     }
 
-
-    public static List<Point> getHalfDayPointTest(){
-        LocalDateTime localDateTime = LocalDateTime.now();
-        List<Point> pointList = new ArrayList<>();
-        //切分6个时间点
-        for (int i = 0; i < 30; i++) {
-            Point point=new Point();
-            LocalDateTime beforePoint = localDateTime.plusDays(-1 - i);
-            LocalDateTime afterPoint = localDateTime.plusDays(-i);
-            String startStr = TIME_FORMATTER.format(beforePoint);
-            String endStr = TIME_FORMATTER.format(afterPoint);
-
-            //组装key与value
-            String beforeStr = TIME_FORMATTER.format(beforePoint);
-            String afterStr = TIME_FORMATTER.format(afterPoint);
-            String key = beforeStr + "~" + afterStr;
-            point.setKey(key);
-            point.setStart(beforePoint);
-            point.setEnd(afterPoint);
-            point.setStartStr(startStr);
-            point.setEndStr(endStr);
-            point.setName(afterStr);
-            pointList.add(point);
-        }
-        return pointList;
+    /**
+     * @Author lipu
+     * @Date 2021/11/2 18:43
+     * @Description 时间戳转格式化字符串
+     */
+    public static String timeStampToStr(Long timeStamp){
+        Date date=new Date(timeStamp);
+        return DATE_FORMAT.format(date);
     }
-
 
 
     @Data
@@ -206,13 +185,5 @@ public class DateUtils {
         private LocalDateTime end;
         private String startStr;
         private String endStr;
-    }
-
-
-    public static void main(String[] args) {
-        List<Point> pointList = getHalfDayPointTest();
-        pointList.forEach(item->{
-            System.out.println(item);
-        });
     }
 }

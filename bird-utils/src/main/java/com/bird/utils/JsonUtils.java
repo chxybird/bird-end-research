@@ -50,9 +50,9 @@ public class JsonUtils {
     /**
      * @Author lipu
      * @Date 2021/4/15 9:18
-     * @Description 实体转JSON
+     * @Description 对象转JSON
      */
-    public static String entityToJson(Object entity) {
+    public static String objectToJson(Object entity) {
         if (entity == null) {
             return null;
         }

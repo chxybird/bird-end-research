@@ -17,7 +17,6 @@ import java.util.Date;
 @AllArgsConstructor
 @NoArgsConstructor
 public class Student implements Serializable {
-
     private Long id;
     private String name;
     private Integer age;

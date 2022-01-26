@@ -17,11 +17,13 @@
     <file url="file://$PROJECT_DIR$/bird-hadoop/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/bird-jdk/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/bird-json/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bird-kafka/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/bird-layui/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/bird-leet-code/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/bird-log/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/bird-mongodb/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/bird-mybatis-plus/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bird-prometheus/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/bird-qr/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/bird-rabbitmq/bird-consumer/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/bird-rabbitmq/bird-provider/src/main/java" charset="UTF-8" />

@@ -3,6 +3,7 @@ import com.bird.builder.ElasticBuilder;
 import com.bird.builder.ElasticRequestBuilder;
 import com.bird.common.ElasticDocument;
 import com.bird.common.ElasticIndex;
+import com.bird.common.ElasticPage;
 import com.bird.common.ElasticRequest;
 import com.bird.component.impl.DocumentComponent;
 import com.bird.component.impl.IndexComponent;
@@ -245,5 +246,21 @@ public class ComponentServiceTest {
         ElasticRequest request = builder.buildWithIndex(new ElasticIndex().indexName("test-one").alias("bird"))
                 .buildWithDocument(new ElasticDocument<DataVo>().data(new DataVo("张三",20))).build();
         documentComponent.insert(request);
+    }
+
+    /**
+     * @Author lipu
+     * @Date 2021/9/23 12:27
+     * @Description 搜索查询
+     */
+    @Test
+    void search() {
+        ElasticBuilder builder=new ElasticRequestBuilder();
+        ElasticRequest elasticRequest = builder.buildWithIndex(new ElasticIndex().indexName("bird-log_2021.34_w"))
+                .buildWithQuery(QueryBuilders.matchAllQuery())
+//                .buildWithPage(new ElasticPage(1, 20))
+                .build();
+        List<DataVo> dataVoList = documentComponent.search(elasticRequest, DataVo.class);
+        System.out.println(dataVoList.size());
     }
 }

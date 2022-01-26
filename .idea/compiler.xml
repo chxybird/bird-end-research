@@ -8,10 +8,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="bird-cicd" />
-        <module name="bird-webflux" />
+        <module name="bird-shell" />
         <module name="bird-authority" />
+        <module name="bird-webflux" />
         <module name="bird-qr" />
         <module name="bird-websocket" />
+        <module name="bird-kafka" />
         <module name="bird-mybatis-plus" />
         <module name="service-common" />
         <module name="bird-base" />
@@ -22,21 +24,21 @@
         <module name="bird-cloud-service-X" />
         <module name="bird-leet-code" />
         <module name="bird-zk-service-X" />
-        <module name="bird-log" />
         <module name="bird-jdk" />
         <module name="bird-elastic" />
-        <module name="bird-shell" />
         <module name="bird-CICD" />
+        <module name="bird-prometheus" />
         <module name="bird-consumer" />
         <module name="bird-cloud-service-A" />
         <module name="bird-zk-service-B" />
         <module name="bird-zk-service-A" />
         <module name="bird-utils" />
         <module name="bird-freemarker" />
+        <module name="bird-json" />
         <module name="bird-hadoop" />
         <module name="bird-layui" />
         <module name="bird-provider" />
-        <module name="bird-json" />
+        <module name="bird-log" />
         <module name="bird-cryptology" />
         <module name="bird-springboot" />
       </profile>
@@ -58,11 +60,13 @@
       <module name="bird-hadoop" target="1.8" />
       <module name="bird-jdk" target="9" />
       <module name="bird-json" target="1.8" />
+      <module name="bird-kafka" target="1.8" />
       <module name="bird-layui" target="1.8" />
       <module name="bird-leet-code" target="1.8" />
       <module name="bird-log" target="1.8" />
       <module name="bird-mongodb" target="1.8" />
       <module name="bird-mybatis-plus" target="1.8" />
+      <module name="bird-prometheus" target="1.8" />
       <module name="bird-provider" target="1.8" />
       <module name="bird-qr" target="1.8" />
       <module name="bird-rabbitmq" target="1.8" />
@@ -98,11 +102,13 @@
       <module name="bird-hadoop" options="-parameters" />
       <module name="bird-jdk" options="-parameters" />
       <module name="bird-json" options="-parameters" />
+      <module name="bird-kafka" options="-parameters" />
       <module name="bird-layui" options="-parameters" />
       <module name="bird-leet-code" options="-parameters" />
       <module name="bird-log" options="-parameters" />
       <module name="bird-mongodb" options="-parameters" />
       <module name="bird-mybatis-plus" options="-parameters" />
+      <module name="bird-prometheus" options="-parameters" />
       <module name="bird-provider" options="-parameters" />
       <module name="bird-qr" options="-parameters" />
       <module name="bird-rabbitmq" options="-parameters" />

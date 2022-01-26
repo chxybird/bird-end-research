@@ -37,6 +37,15 @@ public class MybatisServiceTest {
         studentList.add(student);
         //根据主键 如果数据库中有就更新 没有就插入
         studentService.saveOrUpdateBatch(studentList);
+    }
 
+    @Test
+    void test() {
+        List<Student> studentList=new ArrayList<>();
+        Student student=new Student();
+        student.setId(1L);
+        student.setName("yyyy");
+        studentList.add(student);
+        studentService.saveOrUpdateBatch(studentList);
     }
 }

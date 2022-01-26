@@ -1,0 +1,40 @@
+#kafka相关配置
+spring:
+  kafka:
+    #kafka集群地址
+    bootstrap-servers: 192.168.206.137:9092,192.168.206.137:9093
+    #生产者配置
+    producer:
+      #消息重发次数,默认Integer.MAX_VALUE 设为0可防止消息重复,但消息丢失性增加 新版kafka使用Pid+Sequence-Number解决了消息的重复性
+      retries: 3
+      #缓冲池大小,默认32MB
+      buffer-memory: 33554432
+      #线程一次从缓冲池中批量拉取的消息大小 默认16kb
+      batch-size: 16384
+      #key value 序列化配置
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.apache.kafka.common.serialization.StringSerializer
+      #设置ack机制
+      acks: 1
+    #消费者配置
+    consumer:
+      #配置默认的消费者组
+      group-id: default-group
+      #配置是否自动提交offset
+      enable-auto-commit: false
+      #心跳时间默认3000毫秒
+      heartbeat-interval: 3000
+      auto-offset-reset: earliest
+      #一次最大拉取的消息数量
+      max-poll-records: 500
+      #序列化配置,可以不配置
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      #当设置为自动提交offset的时候起作用,表示批量拉取的时间间隔
+      auto-commit-interval: 1000
+    listener:
+      #手动调用Acknowledgment.acknowledge()后立即提交
+      ack-mode: manual_immediate
+      #每个消费者的并发 当有一个消费者
+      concurrency: 2
+
